@@ -8,7 +8,7 @@ if val1:
 else:
     print("phone no is incorrect")
 pincode=input("enter the pincode:")
-val2=re.search("^[5]\d{6}$",pincode)
+val2=re.search("^[5]\d{5}$",pincode)
 if val2:
     print(pincode)
 else:

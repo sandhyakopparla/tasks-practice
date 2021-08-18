@@ -1,0 +1,12 @@
+names=("sandhya","anu","arun","vishal")
+integer=(3,4,5)
+print(names)
+print(len(names))
+print(names[0])
+print(names+integer)
+print(names[-1])
+print(list(names))
+print(max(integer))
+print(min(integer))
+print(names[0:2])
+
